@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#searchnav{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Responsiveness of Explore */
+
+
+  @media  (max-width:620px ) {
+    #explore-resp{
+      width: 18vw;
+      height: 14vh;
+    }
+  }
+  @media  (max-width:481px ) {
+    #explore-resp{
+      width: 23vw;
+      height: 16vh;
+  }
+  }
+  @media  (max-width:380px ) {
+    #explore-resp{
+      width: 30vw;
+}
+}
